@@ -1,0 +1,43 @@
+name: SpecialTools
+main: com.manul.specialtools.SpecialTools
+version: 1.0
+api-version: 1.21
+author: manulishere
+description: Plugin for unique instruments 1.21 for PaperSpigot 1.21 (Tested on 1.21.4)
+
+commands:
+  specialtools:
+    description: Main command of the plugin SpecialTools
+    aliases: [st]
+    usage: /<command> <give|reload|info|pickaxe|shovel|axe|help>
+    permission: specialtools.command.use
+    permission-message: "§cYou do not have permission to use this command."
+
+permissions:
+  specialtools.command.use:
+    description: Allows you to use the command /specialtools
+    default: op
+
+  specialtools.command.give:
+    description: Allows you to issue special tools via command
+    default: op
+
+  specialtools.command.reload:
+    description: Allows you to reload the plugin configuration
+    default: op
+
+  specialtools.pickaxe.use:
+    description: Allows you to use a special pickaxe
+    default: op
+
+  specialtools.shovel.use:
+    description: Allows you to use a special shovel
+    default: op
+
+  specialtools.axe.use:
+    description: Allows you to use a special axe
+    default: op
+
+  specialtools.command.help:
+    description: Plugin information
+    default: op

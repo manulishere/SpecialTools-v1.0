@@ -1,0 +1,43 @@
+### THIS IS PLUGIN CONFIGURATION FILE ###
+
+# [EN]: This is the language file selection point for the plugin, which is located in the "/plugins/SpecialTools/Languages" folder.
+# Select the name of the language file without the ".yml" element so that the plugin uses one or another language format.
+#
+# [RU]: Это пункт выбора языкового файла для плагина, который находится в папке "/plugins/SpecialTools/Languages".
+# Выберите имя языкового файла без «.yml», чтобы плагин использовал тот или иной языковой формат.
+language: en_US
+
+# [EN]: This is an option to use special permissions so that players can only use tools when their group is granted a certain permission,
+# eg: "specialtools.pickaxe.use" - If the player has this permission, then he will be able to use the SpecialPickAxe tool.
+# Set to "false" if you want all players to be able to use these tools without restrictions.
+#
+# [RU]: Это возможность использовать специальные разрешения, чтобы игроки могли использовать инструменты только в том случае,
+# если их группе предоставлено определенное разрешение,
+# например: "specialtools.pickaxe.use" - Если у игрока есть это разрешение, то он сможет использовать инструмент SpecialPickAxe.
+# Установите значение «false», если вы хотите, чтобы все игроки могли использовать эти инструменты без ограничений.
+permissions: true
+
+# [EN]: Here you can specify the type of object that will be used as SpecialPickAxe.
+# For example: "IRON_PICKAXE", "WOODEN_PICKAXE" or "STONE_PICKAXE".
+# You can also use absolutely any object as a pickaxe, but it is recommended to use a pickaxe!
+#
+# [RU]: Здесь вы можете указать ID предмета, который будет использоваться в качестве SpecialPickAxe.
+# Например: "IRON_PICKAXE", "WOODEN_PICKAXE" или "STONE_PICKAXE".
+# В качестве кирки можно использовать абсолютно любой предмет, но рекомендуется использовать именно кирку!
+pickaxe_type: DIAMOND_PICKAXE
+# [EN]: This is the item with the setting of "transfusion" of the item, that is, the item will have the effect of enchantment.
+# Specify "false" if you want to disable.
+#
+# [RU]: Это предмет с настройкой «переливания» предмета, то есть предмет будет иметь эффект зачарования.
+# Укажите "false", если хотите отключить.
+pickaxe_glowing: true
+
+# [EN]: This item is with a shovel, its setting is similar
+# [RU]: Это пункт с лопатой, его настройка аналогична
+shovel_type: DIAMOND_SHOVEL
+shovel_glowing: true
+
+# [EN]: This item is with a axe, its setting is similar
+# [RU]: Это пункт с топором, его настройка аналогична
+axe_type: DIAMOND_AXE
+axe_glowing: true

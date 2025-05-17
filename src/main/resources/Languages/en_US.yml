@@ -1,0 +1,75 @@
+# Language file in English #
+
+# ----------------------------------------------------------------------------------------------------------------------------------
+#                                                    | SpecialPickAxe Settings |
+#                                                    |-------------------------|
+
+# The name the SpecialPickAxe will have when you give it to the player.
+pickaxe_name: "&c&lSpecial&f&lPickAxe"
+# SpecialPickaxe Lore. (Item description)
+# You can add your own lines or remove unnecessary ones, the main thing is to keep the format: ( - "lorename")!
+# "&" is a symbol to specify the color of the subsequent text.
+# Full list of colors - https://www.spigotmc.org/wiki/textcosmetics-colors-and-formats/
+# "specialtools.pickaxe.use", "specialtools.shovel.use" and "specialtools.axe.use" - these are permissions for
+# use of an item by a player, eg: He won't be able to dig with the Super Pickaxe unless he has permission "specialtools.pickaxe.use"
+# If you want to disable this, go to "config.yml" and set "permissions: false"
+pickaxe_lore:
+  - "&4&lExtracts within a 3 block radius!"
+  - "§7Permission required: specialtools.pickaxe.use,"
+  - "&7if permissions: true (check config.yml)"
+# ----------------------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------------------------------------------------------
+#                                                    | SpecialShovel Settings |
+#                                                    |------------------------|
+
+# It's the same as with the SpecialPickAxe!
+shovel_name: "&c&lSpecial&f&lShovel"
+# Likewise.
+shovel_lore:
+  - "&4&lExtracts within a 3 block radius!"
+  - "§7Permission required: specialtools.shovel.use,"
+  - "&7if permissions: true (check config.yml)"
+# ----------------------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------------------------------------------------------
+#                                                    |  SpecialAxe Settings  |
+#                                                    |-----------------------|
+
+# It's the same as with the SpecialPickAxe!
+axe_name: "&c&lSpecial&f&lAxe"
+# Likewise.
+axe_lore:
+  - "&4&lExtracts the entire tree height"
+  - "&4&lup to 11 blocks!"
+  - "§7Permission required: specialtools.axe.use,"
+  - "&7if permissions: true (check config.yml)"
+# ----------------------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------------------------------------------------------
+#                                                    |   Message Settings    |
+#                                                    |-----------------------|
+
+# Instead of "§" you can use "&".
+# If the player does not have rights:
+permission_error: "&f&l[&c&lSpecial&f&lTools]&r §cYou do not have permission to use this command or tool."
+# If you are trying to give an item to a player who is not on the server:
+noplayer_error: "&f&l[&c&lSpecial&f&lTools]&r §cPlayer not found."
+# Output a message to the sender of the command when the item has been issued:
+give_success: "&f&l[&c&lSpecial&f&lTools]&r §aYou have given %item%§r to player §c%player%."
+# Message about successful reload of the plugin config (and languages):
+reload_success: "&f&l[&c&lSpecial&f&lTools]&r §aThe plugin configuration has been successfully reloaded."
+# Output a message when using the /st help command:
+help_message:
+  - ""
+  - ""
+  - "           &c&lSpecial&f&lTools &f&lv&c&l1&f&l.&c&l0&r"
+  - "&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-"
+  - "&e/st help&f - help"
+  - "&e/st info&f - plugin information"
+  - "&e/st give &f[&epickaxe &f| &eshovel &f| &eaxe&f] &f[&eplayer&f] - give out an item"
+  - "&e/st reload&f - reload plugin config"
+  - "&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-&c-&f-"
+  - ""
+# Read all permissions for using commands in the plugin documentation!
+# ----------------------------------------------------------------------------------------------------------------------------------
